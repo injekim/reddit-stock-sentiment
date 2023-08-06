@@ -1,1 +1,1 @@
-# stock-reddit-sentiment
+# reddit-stock-sentiment
