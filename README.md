@@ -14,7 +14,7 @@ This repository contains code for the dissertation project "Exploring the Relati
 
 ## How to Run
 
-If you're interested in replicating the tests, follow these steps:
+If you wish to replicare the tests, follow these steps:
 
 1. **Setup Data**: Download `posts.csv`, `stock_index.csv`, and `subreddit_subscribers.csv` from this Kaggle link: [Reddit-Stock related posts](https://www.kaggle.com/datasets/injek0626/reddit-stock-related-posts?datasetId=3431669). Place the files in the root directory of the repository.
 2. **Prepare Post Data**: Execute `prepare_posts.ipynb` to preprocess the post data and categorise them by stocks for sentiment analysis.
@@ -30,7 +30,7 @@ The study also factored in daily post counts and subreddit subscriber counts to 
 
 ![Adjusted R-squared plots](./imgs/adj_r_squared.png)
 
-The above plots display the adjusted R-squared scores for the basic Fama French three-factor model and its three variations that include sentiment data. The plot on the far left uses sentiment data from the same day. By adding sentiment factors, there's a clear enhancement in the model's R-squared score. Vader stands out by increasing the score by 3.31%. Additionally, when we incorporate post and subscriber counts, the scores see even further improvement. Additionally, the effects of post counts and subscriber counts can be clearly seen as their inclusion improves the scores even further.
+The above plots display the adjusted R-squared scores for the basic Fama French three-factor model and its three variations that include sentiment data. The plot on the far left uses sentiment data from the same day. By adding sentiment factors, there's a clear enhancement in the model's R-squared score. Vader performed the best, increasing the score by 3.31%. Additionally, the effects of post counts and subscriber counts can be clearly seen as their inclusion improves the scores even further.
 
 |      | aapl      | gme      | mcd   | msft      | nflx     | nvda      | tsla      | mean     |
 |------|-----------|----------|-------|-----------|----------|-----------|-----------|----------|
