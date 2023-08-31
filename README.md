@@ -34,7 +34,7 @@ The above plots display the adjusted R-squared scores for the basic Fama French 
 
 |      | aapl      | gme      | mcd   | msft      | nflx     | nvda      | tsla      | mean     |
 |------|-----------|----------|-------|-----------|----------|-----------|-----------|----------|
-| P>&#124;t&#124; | 2.35e-10 | 1.12e-11 | 0.001 | 3.25e-18 | 1.39e-04 | 9.98e-11  | 6.92e-10  | 1.96e-04 |
+| **P>&#124;t&#124;** | 2.35e-10 | 1.12e-11 | 0.001 | 3.25e-18 | 1.39e-04 | 9.98e-11  | 6.92e-10  | 1.96e-04 |
 
 A look at the p-values reveals that all seven stocks had values below 0.05, indicating a statistically significant connection.
 
@@ -42,7 +42,7 @@ When incorporating sentiment data from the previous day, results still outperfor
 
 |      | aapl   | gme      | mcd   | msft      | nflx     | nvda  | tsla  | mean     |
 |------|--------|----------|-------|-----------|----------|-------|-------|----------|
-| P>&#124;t&#124; | 0.009 | 1.13e-04 | 0.462 | 6.70e-04  | 4.85e-17 | 0.499 | 0.016 | 0.141    |
+| **P>&#124;t&#124;** | 0.009 | 1.13e-04 | 0.462 | 6.70e-04  | 4.85e-17 | 0.499 | 0.016 | 0.141    |
 
 Upon analysing the p-values, 5 out of the 7 stocks still had values below 0.05, indicating a slight reduction in its effectiveness.
 
@@ -50,6 +50,6 @@ When using sentiments from 2 days prior, the effectiveness waned. Vader once aga
 
 |      | aapl  | gme   | mcd   | msft      | nflx  | nvda  | tsla  | mean  |
 |------|-------|-------|-------|-----------|-------|-------|-------|-------|
-| P>&#124;t&#124; | 0.032 | 0.151 | 0.070 | 1.55e-12 | 0.900 | 0.005 | 0.412 | 0.224 |
+| **P>&#124;t&#124;** | 0.032 | 0.151 | 0.070 | 1.55e-12 | 0.900 | 0.005 | 0.412 | 0.224 |
 
 For this set, p-values for just 3 of the 7 stocks were below 0.05, further indicating the diminishing effects of older sentiment data.
