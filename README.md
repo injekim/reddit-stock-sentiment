@@ -36,7 +36,7 @@ The above plots display the adjusted R-squared scores for the basic Fama French 
 |------|-----------|----------|-------|-----------|----------|-----------|-----------|----------|
 | **P>&#124;t&#124;** | 2.35e-10 | 1.12e-11 | 0.001 | 3.25e-18 | 1.39e-04 | 9.98e-11  | 6.92e-10  | 1.96e-04 |
 
-A look at the p-values reveals that all seven stocks had values below 0.05, indicating a statistically significant connection.
+A look at the p-values of the sentiment factor reveals that for all seven stocks, the p-values were below 0.05, suggesting a statistically significant connection.
 
 When incorporating sentiment data from the previous day, results still outperformed the base model, though not as much as same-day data. Here, XLM-T performed the best, improving the score by 1.63%. The role of post counts and subscriber numbers remained noticeable.
 
@@ -44,7 +44,7 @@ When incorporating sentiment data from the previous day, results still outperfor
 |------|--------|----------|-------|-----------|----------|-------|-------|----------|
 | **P>&#124;t&#124;** | 0.009 | 1.13e-04 | 0.462 | 6.70e-04  | 4.85e-17 | 0.499 | 0.016 | 0.141    |
 
-Upon analysing the p-values, 5 out of the 7 stocks still had values below 0.05, indicating a slight reduction in its effectiveness.
+Upon analysing the p-values, 5 out of the 7 stocks still had p-values below 0.05, indicating a slight reduction in its effectiveness.
 
 When using sentiments from 2 days prior, the effectiveness waned. Vader once again performed the best, but only with a marginal improvement of 0.41%. By this point, the influences of post and subscriber counts had largely faded.
 
