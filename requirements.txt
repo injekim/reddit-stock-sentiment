@@ -1,0 +1,15 @@
+matplotlib==3.7.2
+numpy==1.23.5
+nltk==3.8.1
+pandas==2.0.3
+Pattern @ git+https://github.com/uob-vil/pattern.git@3b77852c51d1e80b17d9abba0be5efad6a2fd7a5
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1680088766131/work
+scikit-learn==1.3.0
+scipy==1.11.1
+seaborn==0.12.2
+sentencepiece==0.1.99
+statsmodels==0.14.0
+torch==2.0.1
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1677948868469/work
+transformers==4.32.1
+yfinance==0.2.28
