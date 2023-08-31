@@ -8,7 +8,7 @@ Data was collected from Pushshift and then filtered using a [simple keyword sear
 
 ## How to Run
 
-For those interested in replicating the tests, follow the steps below:
+If you're interested in replicating the tests, follow these steps:
 
 1. **Setup Data**: Download `posts.csv`, `stock_index.csv`, and `subreddit_subscribers.csv` from this Kaggle link: [Reddit-Stock related posts](https://www.kaggle.com/datasets/injek0626/reddit-stock-related-posts?datasetId=3431669). Place the files in the root directory of the repository.
 2. **Prepare Post Data**: Execute `prepare_posts.ipynb` to preprocess the post data and categorise them by stocks for sentiment analysis.
