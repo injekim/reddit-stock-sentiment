@@ -4,7 +4,13 @@ This repository contains code for the dissertation project "Exploring the Relati
 
 ## Data Sources
 
-Data was collected from Pushshift and then filtered using a [simple keyword search script](https://github.com/injekim/PushshiftDumps) based on [Watchful1's script](https://github.com/Watchful1/PushshiftDumps).
+* Reddit post data was collected from Pushshift and then filtered using a [simple keyword search script](https://github.com/injekim/PushshiftDumps) based on [Watchful1's script](https://github.com/Watchful1/PushshiftDumps).
+
+* The Fama French three-factors were collected from the [Kenneth R. French - Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)
+
+* Historic stock data was collected from Yahoo Finance using [yfinance library](https://github.com/ranaroussi/yfinance).
+
+* Reddit subscriber counts were collected using RedditAPI.
 
 ## How to Run
 
