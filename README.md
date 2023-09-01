@@ -16,7 +16,7 @@ This repository contains code for the dissertation project "Exploring the Relati
 
 If you wish to replicare the tests, follow these steps:
 
-1. **Setup Data**: Download `posts.csv`, `stock_index.csv`, and `subreddit_subscribers.csv` from this Kaggle dataset: [Reddit-Stock related posts](https://www.kaggle.com/datasets/injek0626/reddit-stock-related-posts?datasetId=3431669). Place the files in the root directory of the repository.
+1. **Setup Data**: Download `posts.csv`, `stock_index.csv`, and `subreddit_subscribers.csv` from this Kaggle dataset: [Reddit-Stock related posts](https://www.kaggle.com/datasets/injek0626/reddit-stock-related-posts). Place the files in the root directory of the repository.
 2. **Prepare Post Data**: Execute `prepare_posts.ipynb` to preprocess the post data and categorise them by stocks for sentiment analysis.
 3. **Calculate Sentiments**: Launch `get_sentiment.ipynb` to calculate sentiment scores from the post data.
 4. **Explanatory Data Analysis**: `eda.ipynb` contains explanatory data analysis (EDA) related to the research.
